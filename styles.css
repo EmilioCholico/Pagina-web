@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flexbox;
+}
+
+.titulo-pagina {
+    padding: 0;
+    text-align: center;
+    align-content: center;
+    height: 20vh;
+    color: #fff;
+    background: linear-gradient(#44f, transparent);
+}
+
+.titulo-ciencia {
+    color: #000;
+    border: 1px solid #fff;
+    padding: 0 0 0 20px;
+    background-color: #fff;
+}
+
+.ciencia-datos {
+    border: 1px #fff solid;
+    background-color: #eee;
+    margin: 10px;
+    padding: 5px;
+}
+
+p {
+    background-color: #dddddd;
+}
+
+.claves {
+    border: 1px #fff solid;
+    background-color: #fff;
+    margin: 10px 30px;
+}
+
+.clave-ciencia {
+    background-color: #dddddd;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #eee;
+}
+
+.flex-diseño,
+.flex-diseños {
+    width: 48%;
+    background-color: #eee;
+}
+
+.img-diseño {
+    width: 100%;
+    max-height: 200px;
+}
+
+.caja-imagenpy {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url(images.jpg);
+}
+
+br {
+    background-color: #dddddd;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h2 {
+    position: sticky;
+    top: 0;
+}
+
+.boton-regresar {
+    text-decoration: none;
+    color: #000;
+}
